@@ -1,11 +1,25 @@
 package App;
 
 public class Road {
-	
+	private int number;
+	private int xStart;
+	private int yStart;
+	private int xFinish;
+	private int yFinish;
 	private int time;
 	private int distance;
 	private int timeCost;
 	private int fuelCost;
+	
+	
+	public Road(int num, int xS, int yS, int xF, int yF) {
+		this.setNumber(num);
+		this.xStart = xS;
+		this.yStart = yS;
+		this.xFinish = xF;
+		this.yFinish = yF;
+	}
+	
 	
 	
 	
@@ -52,6 +66,54 @@ public class Road {
 		this.time = time;
 	}
 	
-	
+	public int getxStart() {
+		return xStart;
+	}
+
+	public void setxStart(int xStart) {
+		this.xStart = xStart;
+	}
+
+	public int getyStart() {
+		return yStart;
+	}
+
+	public void setyStart(int yStart) {
+		this.yStart = yStart;
+	}
+
+	public int getxFinish() {
+		return xFinish;
+	}
+
+	public void setxFinish(int xFinish) {
+		this.xFinish = xFinish;
+	}
+
+	public int getyFinish() {
+		return yFinish;
+	}
+
+	public void setyFinish(int yFinish) {
+		this.yFinish = yFinish;
+	}
+
+	public int getFuelCost() {
+		return fuelCost;
+	}
+
+
+
+
+	public int getNumber() {
+		return number;
+	}
+
+
+
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
 
 }

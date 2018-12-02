@@ -3,46 +3,81 @@ package App;
 public class InputUsr {
 	
 	
-	private String origin;
-	private String destination;
-	int compansation;
+	private int xStart, yStart;
+	private int xFinal, yFinal;
+	private int compansation;
 	
 	
 
-	public InputUsr(String o, String d) {
-		this.origin = o;
-		this.destination = d;
+	public InputUsr(int xS, int yS, int xF, int yF) {
+		this.xStart= xS;
+		this.xFinal = xF;
+		this.yStart = yF;
+		this.yFinal = yF;
 	}
 
 
-	public String getOrigin() {
-		return origin;
+
+	public int getxStart() {
+		return xStart;
 	}
 
 
-	public void setOrigin(String origin) {
-		this.origin = origin;
+
+	public void setxStart(int xStart) {
+		this.xStart = xStart;
 	}
 
 
-	public String getDestination() {
-		return destination;
+
+	public int getyStart() {
+		return yStart;
 	}
 
 
-	public void setDestination(String destination) {
-		this.destination = destination;
+
+	public void setyStart(int yStart) {
+		this.yStart = yStart;
 	}
 
-	
+
+
+	public int getxFinal() {
+		return xFinal;
+	}
+
+
+
+	public void setxFinal(int xFinal) {
+		this.xFinal = xFinal;
+	}
+
+
+
+	public int getyFinal() {
+		return yFinal;
+	}
+
+
+
+	public void setyFinal(int yFinal) {
+		this.yFinal = yFinal;
+	}
+
+
+
 	public int getCompansation() {
 		return compansation;
 	}
 
 
+
 	public void setCompansation(int compansation) {
 		this.compansation = compansation;
 	}
+
+
+
 	
 
 }

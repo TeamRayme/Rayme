@@ -1,6 +1,6 @@
 Read Me!!
 
-
+Brand Name : "RerouteME®"
 This program does dynamic planning tool that proposes changes to the truck’s schedule according to real-time data and showing immediately
 the costs effects.
 The daily planning of vehicles is changed when unpredictable situations happen such as: traffic ques; accidents, equipment failure etc.
